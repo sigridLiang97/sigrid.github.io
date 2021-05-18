@@ -19,7 +19,15 @@ grammar_cjkRuby: true
 
 > learning about hte input distribution can help with learning about the mapping from inputs to outputs
 
+### the disadvantages of unsupervised pretraining
+1. the supervised objective will regularization the supervised model using a single hyperparameter, while in unsupervised pretraining, here is not a way of flexibly adapting the strength of the regularization.
+2. each phase has its own hyperparameter, there is a long delay between proposing hyperparameters for the first phasee and being able to update them using feedback from the second phase.
+3. deep learning has a great success in large labeled dataset, while on extremely small datasets. **bayesian methods outperform** methds based on unsupervised pretraining.
 
 # SUMMARY
 - self supervised learning as a pre-text task is not always helpful.
 - we cannot know **exactly** what aspects of the pretrained parameters are retrained during the supervised training stage is limited
+
+# QUESTION
+1. how to perform unsupervised learning and supervised learning simultaneously?
+	
