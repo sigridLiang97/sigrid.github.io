@@ -37,7 +37,7 @@ other definitions of alience are possible, like **highly recognizable pattern**
 2. concept drift
 3. few-shot learning or zero-shot learning
 4. semi-supervised learning
-	1. the marginal $ f(x) $ is intimately tied to the conditional `!$p(y|x)$` 
+	1. the marginal $ f(x) $ is intimately tied to the conditional $ p(y|x) $ 
 	2. it is not possible to capture all or most of the factors of variation that influence an observation
 	3. what to encode in each situation
 	   a. use supervised and self-supervised at the same time for most relevant factors of catiation
