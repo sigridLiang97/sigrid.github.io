@@ -1,11 +1,10 @@
 ---
 title: 2021-05-18-deep learning chapter15 notes
-tags: deep learning, note,
-category: note
+tags: [deep learning, note]
+category: [note]
 renderNumberedHeading: true
 grammar_cjkRuby: true
 ---
-
 
 # Note
 ## top question
